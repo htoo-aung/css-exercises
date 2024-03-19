@@ -54,14 +54,14 @@ body {
   box-sizing: border-box;
   display: flex;
   padding: 24px;
-  flex: 0 0 300px;
+  flex-shrink: 0;
 }
 
 .cards {
   display: flex;
   justify-content: flex-start;
   flex-flow: row wrap;
-  gap: 16px;
+  padding: 32px;
 }
 
 .card {
@@ -71,5 +71,4 @@ body {
   width: 300px;
   padding: 16px;
   margin: 16px;
-  flex: 1 1 auto;
 }
